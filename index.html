@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="full-container">
+      <h1>Weather Reporter</h1>
+      <div class="container">
+        <input type="number" id="temp" />
+        <button type="submit" id="weatherCheckerBtn">Check Weather</button>
+      </div>
+      <div>
+        <div class="weather-container">
+          <p id="weatherResponse"></p>
+        </div>
+        <!-- Need to do the image somehow..-->
+        <div class="home-container">
+          <p id="home-link"><a href="index.html">Home</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="images">
+      <div id="freezing">
+        <img src="images/freezing.png" alt="Snow and Trees" />
+      </div>
+      <div id="cold">
+        <img
+          src="images/cold.png"
+          alt="Image of it snowing and displaying the
+            thermometer"
+        />
+      </div>
+      <div id="cool">
+        <img src="images/cool.png" alt="Image of it being cool outside" />
+      </div>
+      <div id="warm">
+        <img src="images/warm.png" alt="images of it being warm outside" />
+      </div>
+      <div id="hot">
+        <img src="images/hot.png" alt="image of it being hot outside" />
+      </div>
+    </div>
+  </body>
+</html>
