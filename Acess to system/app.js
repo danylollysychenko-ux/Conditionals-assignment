@@ -19,7 +19,7 @@ submitBtn.addEventListener("click", function () {
   ) {
     attempts = 0;
     counter = 0;
-    message.innerHTML = "Acess Granted.";
+    message.innerHTML = "Access Granted.";
     checkMarkImage.classList.add("show")
 
   } else {
