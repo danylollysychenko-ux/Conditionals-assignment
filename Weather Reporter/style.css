@@ -22,6 +22,7 @@ a{
     align-items: center;
     text-align: center;
     margin: auto;
+    padding: 30px;
 }
 
 .images{
@@ -37,11 +38,13 @@ img{
 h1{
     display: flex;
     justify-content: center;
+    font-family: "Comic Relief", sans-serif;
 }
 
 .container{
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
 
 .weather-container{
@@ -51,4 +54,30 @@ h1{
 
 body{
     background-color: aqua;
+}
+
+#temp{
+    font-size: 18px;
+    font: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-color: black;
+    border: 2.5px solid black;
+    border-radius: 14px;
+    background-color: beige;
+    text-align: center;
+}
+
+p{
+    font-family: 'Comic Relief', Courier, monospace;
+    font-size: 24px;
+    color: blue;
+}
+
+#weatherCheckerBtn{
+    border-radius: 40px;
+    border-color: black;
+    border: 2.5px solid black;
+    color: black;
+    background-color: beige;
+    text-align: center;
 }
